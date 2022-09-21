@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Dependency directories
+node_modules/
+jspm_packages/
+
 # testing
 /coverage
 
@@ -21,3 +25,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Logs
+logs
+*.log
+*.debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# SSL/TLS keys
+localhost_cert.pem
+localhost_key.pem
+localhost_fullchain.pem
+server.key
+server.crt
